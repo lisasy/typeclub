@@ -1,0 +1,415 @@
+@font-face {
+  font-family: 'Entypo';
+  src: url('../entypo/entypo-webfont.eot');
+  src: url('../entypo/entypo-webfont.eot?#iefix') format('embedded-opentype'), url('../entypo/entypo-webfont.woff') format('woff'), url('../entypo/entypo-webfont.ttf') format('truetype'), url('../entypo/entypo-webfont.svg#EntypoRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* fonts */
+body {
+  background: #fcfcfc;
+  color: #444444;
+  font-family: "proxima-nova", sans-serif;
+}
+body #front-content {
+  text-align: center;
+}
+body #front-content h2 {
+  line-height: 2.3em;
+  padding-bottom: 20px;
+}
+body #front-content p {
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 2.3em;
+}
+body #main-content {
+  text-align: left;
+}
+body #main-content h2 {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+}
+body #main-content p {
+  margin-bottom: 30px;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+body a {
+  color: #e45326;
+  font-weight: bold;
+  -webkit-transition: color 0.5s ease-in;
+  -moz-transition: color 0.5s ease-in;
+  -o-transition: color 0.5s ease-in;
+  transition: color 0.5s ease-in;
+}
+body a:hover {
+  color: #ff642e;
+}
+body #footer a {
+  font-weight: normal;
+}
+/* entypo icon */
+.entypo-icon {
+  font-family: "Entypo";
+  color: #444444;
+}
+.large {
+  font-size: 5em;
+}
+.small {
+  font-size: 2em;
+}
+/* inset for headers */
+h1 {
+  font-size: 5em;
+}
+/* top logo */
+.brand {
+  color: #ffffff;
+  background: #e45326;
+  border-bottom-right-radius: 20px;
+}
+.brand:hover {
+  background: #444444;
+  color: #ffffff;
+}
+.btn-navbar {
+  background-color: #e45326;
+}
+/* top navigation */
+.navbar .nav > li > a {
+  color: #777777;
+  font-size: 1.2em;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+.navbar .nav > li > a:hover {
+  color: #444444;
+}
+.navbar .nav .active > a,
+.navbar .nav .active > a:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #e45326;
+}
+li.current_page_item a {
+  border-bottom: 4px solid #e45326;
+}
+/* hero-unit*/.hero-unit {
+  display: block;
+  min-height: 420px;
+  padding: 80px 10px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  background: url('../banner.png') center no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+  text-align: center;
+}
+.hero-unit h1 {
+  background: #ffffff;
+  border-bottom: 8px solid #e45326;
+  color: #e45326;
+  letter-spacing: -1px;
+  line-height: 1.2em;
+  font-size: 6.0em;
+  font-weight: 700;
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+.hero-unit p {
+  padding: 20px 0;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 1.7em;
+  text-shadow: 0 -1px 1px #444444;
+}
+/* button */
+.red-button {
+  border-radius: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "proxima-nova";
+  font-weight: 700;
+  padding: 16px 40px;
+  border: 1px solid #983719;
+  background: #f78d1d;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff7d39), to(#e45326));
+  background: -moz-linear-gradient(top, #ff7d39, #e45326);
+}
+.red-button:hover {
+  background: #f47c20;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+  background: -moz-linear-gradient(top, #f88e11, #f06015);
+}
+.red-button:active {
+  position: relative;
+  top: 1px;
+  color: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e45326), to(#ff7d39));
+  background: -moz-linear-gradient(top, #e45326, #ff7d39);
+}
+#main-content header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+#main-content header .page-header-content {
+  padding: 80px 0px;
+  margin: 0 auto;
+}
+#main-content header .page-header-content h1 {
+  line-height: 1.0em;
+}
+#main-content header .page-header-content p {
+  margin: 20px auto;
+  width: 60%;
+  text-align: center;
+  padding-top: 40px;
+}
+header#about {
+  color: #fff;
+  background: url('../type.jpg') center no-repeat;
+  height: 360px;
+}
+header#work {
+  text-shadow: none;
+  background: url('../line.jpg') bottom no-repeat;
+  width: 100%;
+  height: 360px;
+  margin-bottom: 40px;
+}
+header#contact {
+  text-shadow: 0 -1px 1px #444444;
+  color: #fff;
+  background: url('../wesnight.jpg') bottom center no-repeat;
+  height: 360px;
+}
+/* portfolio gallery*/
+#portfolio-gallery {
+  margin-left: 5%;
+  display: block;
+}
+.image-holder {
+  float: left;
+  padding-bottom: 0px;
+  overflow: hidden;
+  border: 1px solid #cccccc;
+  margin: 7px 0px 20px 20px;
+  position: relative;
+}
+.image-holder img {
+  height: auto;
+  width: auto;
+}
+.image-holder .rollover {
+  text-align: center;
+  display: block;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  color: #FFF;
+  background-color: #000;
+  text-shadow: 0px 0px 2px #000;
+  opacity: .9;
+}
+.image-holder .rollover h4 {
+  padding-top: 10px;
+  font-size: 1.4em;
+}
+.image-holder .rollover em {
+  font-size: 0.9em;
+  padding-top: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-style: normal;
+}
+.image-holder .rollover p {
+  font-size: 10px;
+  font-weight: 300;
+}
+.orig-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+ul.item-details {
+  font-size: 1.3em;
+  margin-bottom: 40px;
+}
+ul.item-details li {
+  list-style: none;
+  padding-bottom: 8px;
+}
+/*end: portfolio gallery*/
+/* about page */
+ul#clients h3 {
+  color: #777777;
+  margin-bottom: 6px;
+}
+ul#clients li {
+  list-style-type: none;
+  padding: 4px 0 4px 8px;
+  border-bottom: 1px solid #eeeeee;
+}
+#process .span3 {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+#process .span3 h3 {
+  margin-bottom: 10px;
+}
+#process .span3 p {
+  font-size: 1.1em;
+  line-height: 1.3em;
+  margin-bottom: 10px;
+}
+/* end: about page */
+#main-content {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+#main-content p {
+  line-height: 0.7em;
+}
+#front-content {
+  margin-top: -120px;
+  margin-bottom: 40px;
+}
+#footer,
+#container-block {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+#front-content #container-block {
+  padding: 80px 10px;
+  border-radius: 20px;
+}
+#main-content #container-block {
+  padding-top: 0px;
+  padding-bottom: 40px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top: 6px solid #e45326;
+}
+.content-block {
+  /*fix this later*/
+
+  margin-bottom: 80px;
+}
+/* footer */
+#footer {
+  padding: 40px 10px 0 10px;
+}
+#footer p {
+  color: #777777;
+}
+#footer .row {
+  padding-bottom: 40px;
+}
+#footer #page-links ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+#footer #email span {
+  vertical-align: middle;
+}
+/* other */
+/******* MOBILE *******/
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+  #banner p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+  }
+  #container-block {
+    padding: 0px 10px;
+  }
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .page-header-content h1 {
+    font-size: 3.0em;
+  }
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  #main-content header {
+    height: 100px;
+    background: #FFFFFF;
+  }
+  .page-header-content h1 {
+    font-size: 3.0em;
+    color: #444444;
+    text-shadow: none;
+  }
+  .page-header-content p {
+    display: none;
+  }
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #main-content {
+    margin-top: 0px;
+  }
+  #main-content header {
+    height: 100px;
+    background: #FFFFFF;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #cccccc;
+  }
+  #main-content h2 {
+    font-size: 1.4em;
+    line-height: 1.4em;
+  }
+  #main-content aside {
+    margin-bottom: 40px;
+  }
+  #front-content p {
+    font-size: 10px;
+  }
+  #front-content {
+    margin-top: 40px;
+  }
+  .page-header-content h1 {
+    font-size: 3.0em;
+    color: #444444;
+  }
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  #main-content {
+    margin-top: 0px;
+  }
+  #main-content h2 {
+    font-size: 1.4em;
+    line-height: 1.4em;
+  }
+  #main-content aside {
+    margin-bottom: 40px;
+  }
+  #front-content {
+    margin-top: 40px;
+  }
+  #front-content p {
+    font-size: 0.9em;
+  }
+  #main-content header {
+    height: 80px;
+    background: none;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #cccccc;
+  }
+  .page-header-content h1 {
+    font-size: 3.0em;
+    color: #444444;
+    text-shadow: none;
+  }
+  .page-header-content p {
+    display: none;
+  }
+}
